@@ -1,0 +1,13 @@
+@use '../App/variables';
+@use '../App/mixin';
+
+.home {
+  width: 100%;
+  height: 100% !important;
+  background: white;
+  &__site {
+    width: 100%;
+    height: 100% !important;
+    border-radius: variables.$border-radius;
+  }
+}
